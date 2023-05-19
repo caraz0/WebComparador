@@ -1,0 +1,62 @@
+/*Obtenido de internet, la parte de los bordes y adaptado*/
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.596);
+    width: 90%;
+    background-color: #d5f1fb;
+}
+
+.styled-table thead tr {
+    background-color: #015368;
+    color: #ffffff;
+    text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color:#ffff ;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #015368;
+}
+
+.styled-table-detalle {
+    border-collapse: collapse;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    background-color: #d5f1fb;
+    width: 93%;
+    margin-left: 40px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.596);
+}
+
+.styled-table-detalle  thead tr {
+    background-color: #015368;
+    color: #ffffff;
+}
+
+.styled-table-detalle  th,
+.styled-table-detalle  td {
+    padding: 12px 15px;
+}
+
+.styled-table-detalle  tbody tr:nth-of-type(even) {
+    background-color: #ffff;
+}
+
+.styled-table-detalle  tbody tr:last-of-type {
+    border-bottom: 2px solid #015368;
+}
+
+.tdComp{
+    font-weight: bold;
+} 
+
